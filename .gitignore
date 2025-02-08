@@ -189,7 +189,7 @@ fabric.properties
 images
 
 #Report
-speedup_report_first.txt
+report/
 
 #Idea
 .idea
