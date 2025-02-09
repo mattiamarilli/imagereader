@@ -189,7 +189,7 @@ fabric.properties
 images
 
 #Report
-report/
+performancelog/
 
 #Idea
 .idea

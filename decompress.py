@@ -84,7 +84,7 @@ if __name__ == "__main__":
     results = []  # List to store results
 
     # Open a CSV file to store the benchmark results
-    with open("report/benchmark_decompress.csv", "w", newline="") as file:
+    with open("performancelog/decompresslog.csv", "w", newline="") as file:
         writer = csv.writer(file)
         writer.writerow(["Num_Images", "Num_Processes", "Sequential_Time_Avg", "Parallel_Time_Avg",
                          "Speedup_Avg", "Efficiency_Avg"])

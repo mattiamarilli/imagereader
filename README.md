@@ -1,8 +1,8 @@
 [![Università degli studi di Firenze](https://i.imgur.com/1NmBfH0.png)](https://ingegneria.unifi.it)
 
 Learn more:  
-📄 **[Read the Full Report](https://github.com/mattiamarilli/CircleRenderer/blob/main/reports/CircleRendererReport.pdf)**  
-🎥 **[Watch the Presentation](https://github.com/mattiamarilli/CircleRenderer/blob/main/reports/CircleRendererPresentation.pdf)**
+📄 **[Read the Full Report](https://github.com/mattiamarilli/imagereader/blob/master/reports/ImageReaderReport.pdf)**  
+🎥 **[Watch the Presentation](https://github.com/mattiamarilli/imagereader/blob/master/reports/ImageReaderPresentation.pdf)**
 
 Image Reader Project - Sequential vs Parallel
 ---
@@ -59,10 +59,10 @@ Two main approaches are implemented:
 
 ### Sequential Version
 ```bash
-python sequential_image_reader.py --input_dir /path/to/images
+python sequential_image_reader.py 
 ```
 ### Parallel Version
 ```bash
-python parallel_image_reader.py --input_dir /path/to/images --num_processes 4
+python parallel_image_reader.py
 
 

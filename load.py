@@ -139,7 +139,7 @@ if __name__ == "__main__":
         print(f"Average speedup for {num_images} images: {avg_speedup}x\n")
 
     # Write the speedup report to a file
-    with open("./report/speedup_report.txt", "w") as report_file:
+    with open("performancelog/loadlog.txt", "w") as report_file:
         report_file.write("Average Speedup Report\n")
         report_file.write("========================\n")
         for num_images, speedup_list in speedups.items():
